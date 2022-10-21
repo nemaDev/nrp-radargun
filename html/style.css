@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#radarGun {
+    display: none;
+    height: 490px;
+    width: 600px;
+
+	position: absolute;
+	margin: auto;
+	
+	top: calc( 100% - 490px );
+	left: calc( 100% - 600px );
+    bottom: -5%;
+    
+    background-image: url("img/radargun.png");
+}
+
+    #speed {
+        position: absolute;
+	    margin: auto;
+        font-family: 'digital-counter-7-italic', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        color: #0eac1b;
+
+        bottom: 48%;
+		left: 40%;
+    }
+    #range {
+        position: absolute;
+	    margin: auto;
+        font-family: 'digital-counter-7-italic', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #0eac1b;
+
+        bottom: 50%;
+		left: 55%;
+    }
+    #speedPrefix {
+        position: absolute;
+	    margin: auto;
+        font-family: "Subway Ticker";
+        font-weight: bolder;
+        font-size: 27px;
+        color: #0eac1b;
+
+        bottom: 42%;
+		left: 40%;
+    }
+    #rangePrefix {
+        position: absolute;
+	    margin: auto;
+        font-family: "Subway Ticker";
+        font-weight: bolder;
+        font-size: 17.5px;
+        color: #0eac1b;
+
+        bottom: 50.5%;
+		left: 61%;
+    }
+    #fastsl {
+        position: absolute;
+        font-family: "Subway Ticker";
+        font-weight: bolder;
+        font-size: 20.5px;
+        color: #be0505;
+
+        bottom: 45.5%;
+		left: 35.5%;
+    }
+    #slowsl {
+        position: absolute;
+	    margin: auto;
+        font-family: "Subway Ticker";
+        font-weight: bolder;
+        font-size: 20.5px;
+        color: #0eac1b;
+
+        bottom: 49.5%;
+		left: 35.5%;
+    }
+    #triggeredSpeed {
+        position: absolute;
+	    margin: auto;
+        font-family: 'digital-counter-7-italic', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 15px;
+        color: #0eac1b;
+
+        bottom: 45%;
+		left: 35.5%;
+    }
+    #plate {
+        position: absolute;
+	    margin: auto;
+        font-family: "Subway Ticker";
+        font-weight: bolder;
+        font-size: 17px;
+        color: #0eac1b;
+
+        bottom: 42%;
+		left: 55%;
+    }
+
+
+#gunScope {
+    display: none;
+    height: 1080px;
+    width: 1920px;
+
+    position: absolute;
+	margin: auto;
+	
+	top: calc( 100% - 1080px );
+	left: calc( 100% - 1920px );
+    
+    background-image: url("img/scope.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+    #scopeSpeed {
+        position: fixed;
+	    margin: auto;
+        font-family: 'digital-counter-7-italic', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(255, 0, 0);
+        text-shadow: 2px 2px 7px #ff000060;
+
+        bottom: 41vh;
+		left: 51.5vw;
+    }
