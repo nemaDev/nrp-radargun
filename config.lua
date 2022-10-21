@@ -1,9 +1,3 @@
-------------------------------------------------------------------------
-------------------------------------------------------------------------
---	   keybinds = https://docs.fivem.net/game-references/controls/	  --
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-
 config = {
 	radarGun = "WEAPON_RADARGUN", -- Weapon you want to use as the radargun default is "WEAPON_VINTAGEPISTOL".
 	metric = false, -- true will use the metric system and false will use the imperial system
